@@ -41,7 +41,7 @@ namespace SharpDB.Engine.Tests
 
 			byte[] blob = m_db.TransactionGet(transactionId, id1);
 
-			Assert.IsNull(blob);
+			Assert.IsNotNull(blob);
 
 			m_db.CommitTransaction(transactionId);
 		}
