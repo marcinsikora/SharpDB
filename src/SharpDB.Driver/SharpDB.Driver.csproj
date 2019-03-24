@@ -1,15 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>net40;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseUrl>https://github.com/Ultz-Limited/SharpDB/blob/master/LICENSE.md</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Ultz-Limited/SharpDB</PackageProjectUrl>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes />
     <Description>SharpDB is C# based High Performance Key Value NoSQL Database with ACID Transaction. SharpDB is using Multiversion concurrency control to achieve transactions. Because of using MVCC SharpDB is very fast in doing transaction (the downside is that SharpDB using a lof of space).
 For network protocl SharpDB is using NetMQ which is C# port of ZeroMQ, which means SharpDB is using very fast on the network as well.</Description>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Common.Logging" Version="3.4.1" />
     <PackageReference Include="NetMQ" Version="4.0.0.1" />

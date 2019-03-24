@@ -1,25 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="NetMQ" Version="4.0.0.1" />
     <PackageReference Include="Common.Logging" Version="3.4.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\SharpDB.Driver\SharpDB.Driver.csproj" />
     <ProjectReference Include="..\SharpDB.Engine\SharpDB.Engine.csproj" />
     <ProjectReference Include="..\SharpDB.Shared\SharpDB.Shared.csproj" />
   </ItemGroup>
-
   <ItemGroup>
-
-    <PackageReference Include="Topshelf">
-      <Version>4.1.0.117-develop</Version>
-    </PackageReference>
+    <PackageReference Include="Topshelf" Version="4.1.0.117-develop" />
   </ItemGroup>
 </Project>

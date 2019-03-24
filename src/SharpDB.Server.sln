@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDB.Server", "SharpDB.Server\SharpDB.Server.csproj", "{5A25A3D1-5B63-4B5F-A606-581F8A858BF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDB.Server", "SharpDB.Server\SharpDB.Server.csproj", "{5A25A3D1-5B63-4B5F-A606-581F8A858BF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDB.Shared", "SharpDB.Shared\SharpDB.Shared.csproj", "{C88C0D35-FF8C-46B0-87EE-A14AF9A2895D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDB.Shared", "SharpDB.Shared\SharpDB.Shared.csproj", "{C88C0D35-FF8C-46B0-87EE-A14AF9A2895D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDB.Engine", "SharpDB.Engine\SharpDB.Engine.csproj", "{45FD4B03-C653-47BC-8190-46D3EF934ADD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDB.Driver", "SharpDB.Driver\SharpDB.Driver.csproj", "{5C55E790-79A4-491F-801E-502ED19D0FBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDB.Engine.Tests", "SharpDB.Engine.Tests\SharpDB.Engine.Tests.csproj", "{4AFC56FA-8F1E-414D-954C-C3A4604800A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDB.Example", "SharpDB.Example\SharpDB.Example.csproj", "{473F1737-D746-4347-92F6-D0C76A7464CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDB.Example", "SharpDB.Example\SharpDB.Example.csproj", "{473F1737-D746-4347-92F6-D0C76A7464CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDB.Engine.Tests", "SharpDB.Engine.Tests\SharpDB.Engine.Tests.csproj", "{6F0C4E25-FC4F-4DA6-85A6-54FAD49A4352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{5C55E790-79A4-491F-801E-502ED19D0FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C55E790-79A4-491F-801E-502ED19D0FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C55E790-79A4-491F-801E-502ED19D0FBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4AFC56FA-8F1E-414D-954C-C3A4604800A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AFC56FA-8F1E-414D-954C-C3A4604800A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AFC56FA-8F1E-414D-954C-C3A4604800A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AFC56FA-8F1E-414D-954C-C3A4604800A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{473F1737-D746-4347-92F6-D0C76A7464CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{473F1737-D746-4347-92F6-D0C76A7464CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473F1737-D746-4347-92F6-D0C76A7464CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473F1737-D746-4347-92F6-D0C76A7464CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0C4E25-FC4F-4DA6-85A6-54FAD49A4352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0C4E25-FC4F-4DA6-85A6-54FAD49A4352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0C4E25-FC4F-4DA6-85A6-54FAD49A4352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0C4E25-FC4F-4DA6-85A6-54FAD49A4352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
