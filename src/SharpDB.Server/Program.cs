@@ -14,10 +14,10 @@ namespace SharpDB.Server
                        x.UseAssemblyInfoForServiceInfo();
 
                        x.Service(settings => new ServerService(databaseFile, port), s =>
-{
-    s.BeforeStartingService(_ => Console.WriteLine("BeforeStart"));
-    s.BeforeStoppingService(_ => Console.WriteLine("BeforeStop"));
-});
+                        {
+                            s.BeforeStartingService(_ => Console.WriteLine("BeforeStart"));
+                            s.BeforeStoppingService(_ => Console.WriteLine("BeforeStop"));
+                        });
 
                        x.SetStartTimeout(TimeSpan.FromSeconds(10));
                        x.SetStopTimeout(TimeSpan.FromSeconds(10));

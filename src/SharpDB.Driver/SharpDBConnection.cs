@@ -1,15 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using System.Reflection.Emit;
-using System.Text;
 using Common.Logging;
 using NetMQ;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Bson;
 using SharpDB.Shared;
 
 namespace SharpDB.Driver

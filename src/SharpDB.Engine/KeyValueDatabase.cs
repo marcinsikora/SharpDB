@@ -34,7 +34,7 @@ namespace SharpDB.Engine
         public KeyValueDatabase(Func<string, IDatabaseReader> readerFactory,
             Func<string, IDatabaseWriter> writerFactory, Func<string, ICacheProvider> cacheProviderFactory)
         {
-            m_log = LogManager.GetLogger(this.GetType());
+            m_log = LogManager.GetLogger(this.GetType());           
 
             FileName = "default.dbfile";
             m_readerFactory = readerFactory;
